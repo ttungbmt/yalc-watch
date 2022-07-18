@@ -30,7 +30,7 @@ Add the following confic JSON to your `package.json` and tweak to your liking:
 ...
 "yalcWatch": {
   "watchFolder": "dist",
-  "buildWatchCommand": "tsc --watch",
+  "buildWatchCommand": "microbundle --watch",
   "extensions": "js,png,svg,gif,jpeg,css",
 }
 ...
@@ -41,7 +41,7 @@ Still in your `package.json` add the following to the `scripts` section:
 ```json
 "scripts": {
   ...
-  "yalc-watch": "yalc-watch",
+  "watch:push": "yalc-watch",
   ...
 }
 ```
