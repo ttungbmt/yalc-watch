@@ -2,6 +2,7 @@
   "name": "@ttungbmt/yalc-watch",
   "version": "0.0.7",
   "description": "Automatically watch your library build output and publish locally using yalc",
+  "repository": "ttungbmt/yalc-watch",
   "main": "index.js",
   "sideEffects": false,
   "bin": {
