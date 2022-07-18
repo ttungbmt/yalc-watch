@@ -1,8 +1,9 @@
 {
-  "name": "yalc-watch",
-  "version": "0.0.6",
-  "description": "",
+  "name": "@ttungbmt/yalc-watch",
+  "version": "0.0.7",
+  "description": "Automatically watch your library build output and publish locally using yalc",
   "main": "index.js",
+  "sideEffects": false,
   "bin": {
     "yalc-watch": "dist/index.js"
   },
@@ -20,17 +21,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/concurrently": "^4.1.0",
-    "@types/node": "^13.1.5",
-    "@types/nodemon": "^1.19.0",
-    "chalk": "^3.0.0",
-    "commander": "^4.1.0",
-    "concurrently": "^5.0.2",
-    "nodemon": "^2.0.2",
-    "sync-directory": "^2.1.0"
+    "@types/concurrently": "^7.0.0",
+    "@types/node": "^18.0.6",
+    "@types/nodemon": "^1.19.1",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0",
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.19",
+    "sync-directory": "^5.1.7"
   },
   "devDependencies": {
-    "typescript": "^3.7.4",
-    "yalc": "^1.0.0-pre.34"
+    "typescript": "^4.7.4",
+    "yalc": "^1.0.0-pre.53"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
